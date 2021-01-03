@@ -28,7 +28,7 @@ code{
 }
 
 
-li:hover{
+.li_nav:hover{
     transform: scale(1.1);
     
 }
@@ -48,7 +48,6 @@ li:hover{
 
 nav{
     width:40%;
-    position: relative;
     
 
 
@@ -73,3 +72,17 @@ main{
 
 }
 
+.li_contacto{
+    display: block;
+    margin-bottom: 3px;
+}
+
+.social{
+    transition: transform 300ms;
+
+}
+
+.social:hover{
+    transform: scale(1.1)
+
+}
